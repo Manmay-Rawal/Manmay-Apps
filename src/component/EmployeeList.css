@@ -1,0 +1,129 @@
+.employee-list {
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .employee-list h1 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .employee-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .employee-list table, .employee-list th, .employee-list td {
+    border: 1px solid #ddd;
+  }
+  
+  .employee-list th, .employee-list td {
+    padding: 15px;
+    text-align: left;
+  }
+  
+  .employee-list th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .employee-list tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .employee-list tr:hover {
+    background-color: #ddd;
+  }
+  
+  .employee-list img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  
+  .no-employees {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #888;
+  }
+  
+  @media (max-width: 768px) {
+    .employee-list table, .employee-list th, .employee-list td {
+      display: block;
+      width: 100%;
+    }
+  
+    .employee-list th {
+      text-align: center;
+    }
+  }
+  
+  .employee-list {
+    margin: 20px;
+  }
+  
+  .employee-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .employee-list th, .employee-list td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .employee-list img {
+    border-radius: 50%;
+  }
+  
+  .employee-list button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .employee-list .no-employees {
+    text-align: center;
+    font-size: 18px;
+  }
+  
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem 2rem;
+  }
+  
+  .navbar-brand {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-btn {
+    padding: 0.5rem 1rem;
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-btn:hover {
+    background-color: #777;
+  }

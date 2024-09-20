@@ -1,0 +1,74 @@
+/* Styles for the admin panel */
+
+.admin-panel {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    background-color: #f4f4f9;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem 2rem;
+  }
+  
+  .navbar-brand {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-btn {
+    padding: 0.5rem 1rem;
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-btn:hover {
+    background-color: #777;
+  }
+  
+  /* Custom button styles */
+  .create-btn {
+    background-color: #4caf50;
+  }
+  
+  .create-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .logout-btn {
+    background-color: #f44336;
+  }
+  
+  .logout-btn:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* Main content styles */
+  .content {
+    padding: 2rem;
+  }
+  
+  .content h1 {
+    color: #333;
+    font-size: 2rem;
+  }
+  
+  .content p {
+    color: #666;
+    font-size: 1.2rem;
+  }
+  
